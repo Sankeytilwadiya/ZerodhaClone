@@ -5,18 +5,18 @@ import Stats from './Stats';
 import Pricing from './Pricing';
 import Education from './Educated';
 import OpenAccount from '../OpenAccount';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+// import Navbar from '../Navbar';
+// import Footer from '../Footer';
 function HomePage () {
     return ( <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Hero/>
     <Award/>
     <Stats/>
     <Pricing/>
     <Education/>
     <OpenAccount/>
-    <Footer/>
+    {/* <Footer/> */}
 
     </> );
 }
